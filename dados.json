@@ -1,0 +1,189 @@
+{
+    "clientes": [
+      {
+        "nome": "João Silva",
+        "idade": 30,
+        "sexo": "Masculino",
+        "email": "joao.silva@email.com",
+        "data_nascimento": "1994-05-15",
+        "telefone": "(11) 98765-4321"
+      },
+      {
+        "nome": "Maria Oliveira",
+        "idade": 28,
+        "sexo": "Feminino",
+        "email": "maria.oliveira@email.com",
+        "data_nascimento": "1996-09-22",
+        "telefone": "(21) 99876-5432"
+      },
+      {
+        "nome": "Carlos Santos",
+        "idade": 35,
+        "sexo": "Masculino",
+        "email": "carlos.santos@email.com",
+        "data_nascimento": "1989-03-10",
+        "telefone": "(31) 91234-5678"
+      },
+      {
+        "nome": "Ana Souza",
+        "idade": 26,
+        "sexo": "Feminino",
+        "email": "ana.souza@email.com",
+        "data_nascimento": "1998-07-08",
+        "telefone": "(41) 99888-7766"
+      },
+      {
+        "nome": "Bruno Lima",
+        "idade": 40,
+        "sexo": "Masculino",
+        "email": "bruno.lima@email.com",
+        "data_nascimento": "1984-11-23",
+        "telefone": "(51) 97777-1234"
+      },
+      {
+        "nome": "Carla Mendes",
+        "idade": 32,
+        "sexo": "Feminino",
+        "email": "carla.mendes@email.com",
+        "data_nascimento": "1992-02-14",
+        "telefone": "(61) 96666-5544"
+      },
+      {
+        "nome": "Daniel Ferreira",
+        "idade": 45,
+        "sexo": "Masculino",
+        "email": "daniel.ferreira@email.com",
+        "data_nascimento": "1979-09-30",
+        "telefone": "(71) 95555-4433"
+      },
+      {
+        "nome": "Eduarda Nunes",
+        "idade": 22,
+        "sexo": "Feminino",
+        "email": "eduarda.nunes@email.com",
+        "data_nascimento": "2002-04-18",
+        "telefone": "(81) 94444-3322"
+      },
+      {
+        "nome": "Felipe Rocha",
+        "idade": 38,
+        "sexo": "Masculino",
+        "email": "felipe.rocha@email.com",
+        "data_nascimento": "1986-12-05",
+        "telefone": "(91) 93333-2211"
+      },
+      {
+        "nome": "Gabriela Castro",
+        "idade": 29,
+        "sexo": "Feminino",
+        "email": "gabriela.castro@email.com",
+        "data_nascimento": "1995-06-17",
+        "telefone": "(31) 92222-1100"
+      },
+      {
+        "nome": "Henrique Almeida",
+        "idade": 27,
+        "sexo": "Masculino",
+        "email": "henrique.almeida@email.com",
+        "data_nascimento": "1997-08-29",
+        "telefone": "(21) 91111-0099"
+      },
+      {
+        "nome": "Isabela Martins",
+        "idade": 33,
+        "sexo": "Feminino",
+        "email": "isabela.martins@email.com",
+        "data_nascimento": "1991-03-12",
+        "telefone": "(11) 90000-9988"
+      },
+      {
+        "nome": "Jorge Batista",
+        "idade": 36,
+        "sexo": "Masculino",
+        "email": "jorge.batista@email.com",
+        "data_nascimento": "1988-10-04",
+        "telefone": "(41) 98888-8877"
+      },
+      {
+        "nome": "Karina Lopes",
+        "idade": 31,
+        "sexo": "Feminino",
+        "email": "karina.lopes@email.com",
+        "data_nascimento": "1993-12-25",
+        "telefone": "(51) 97777-7766"
+      },
+      {
+        "nome": "Lucas Ribeiro",
+        "idade": 24,
+        "sexo": "Masculino",
+        "email": "lucas.ribeiro@email.com",
+        "data_nascimento": "2000-05-09",
+        "telefone": "(61) 96666-6655"
+      },
+      {
+        "nome": "Mariana Costa",
+        "idade": 39,
+        "sexo": "Feminino",
+        "email": "mariana.costa@email.com",
+        "data_nascimento": "1985-07-30",
+        "telefone": "(71) 95555-5544"
+      },
+      {
+        "nome": "Nelson Teixeira",
+        "idade": 42,
+        "sexo": "Masculino",
+        "email": "nelson.teixeira@email.com",
+        "data_nascimento": "1982-01-11",
+        "telefone": "(81) 94444-4433"
+      },
+      {
+        "nome": "Olívia Cardoso",
+        "idade": 25,
+        "sexo": "Feminino",
+        "email": "olivia.cardoso@email.com",
+        "data_nascimento": "1999-02-28",
+        "telefone": "(91) 93333-3322"
+      },
+      {
+        "nome": "Paulo Henrique",
+        "idade": 37,
+        "sexo": "Masculino",
+        "email": "paulo.henrique@email.com",
+        "data_nascimento": "1987-09-15",
+        "telefone": "(31) 92222-2211"
+      },
+      {
+        "nome": "Quitéria Ramos",
+        "idade": 34,
+        "sexo": "Feminino",
+        "email": "quiteria.ramos@email.com",
+        "data_nascimento": "1990-06-06",
+        "telefone": "(21) 91111-1122"
+      },
+      {
+        "nome": "Ricardo Borges",
+        "idade": 41,
+        "sexo": "Masculino",
+        "email": "ricardo.borges@email.com",
+        "data_nascimento": "1983-11-20",
+        "telefone": "(11) 90000-2233"
+      },
+      {
+        "nome": "Sabrina Freitas",
+        "idade": 23,
+        "sexo": "Feminino",
+        "email": "sabrina.freitas@email.com",
+        "data_nascimento": "2001-04-07",
+        "telefone": "(41) 98888-3344"
+      },
+      {
+        "nome": "Tiago Nascimento",
+        "idade": 29,
+        "sexo": "Masculino",
+        "email": "tiago.nascimento@email.com",
+        "data_nascimento": "1995-08-13",
+        "telefone": "(51) 97777-4455"
+      }
+    ]
+  }
+  
