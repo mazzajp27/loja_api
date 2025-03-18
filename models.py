@@ -6,5 +6,8 @@ class Cliente(Base):
     
     id_cliente = Column(Integer, primary_key=True, index=True)
     nome = Column(String, index=True)
-    descricao = Column
+    idade = Column(Integer, index=True)
+    sexo = Column(String, index=True)
+    email = Column(String, index=True)
+    
     
