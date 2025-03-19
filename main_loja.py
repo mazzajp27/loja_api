@@ -26,18 +26,17 @@ db_dependency = Annotated[Session, Depends(get_db)]
 
        
 
-@app.post("/clientes")
-async def get_cliente(cliente: Clientes, db: db_dependency):
+@app.post("/add_clientes")
+async def add_cliente(cliente: Clientes, db: db_dependency):
     cliente = models.Cliente(nome=cliente.nome,idade=cliente.idade,sexo=cliente.sexo,email=cliente.email)
     db.add(cliente)
     db.commit()
     db.refresh(cliente)
 
-# @app.get("/qtd_shoes")
-# def home():
-#     """Essa rota retorna somente a quantidade de tenis que possui no banco"""
-#     data = load_data() 
-#     return {"Shoes": len(data)}
+@app.get("/clientes", response_model=List[Clientes])
+async def get_clientes(db: db_dependency):
+    clientes = db.query(models.Cliente).all()
+    return clientes
 
 
 # @app.get("/shoes/{id_shoe}")
