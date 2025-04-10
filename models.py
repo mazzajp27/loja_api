@@ -10,4 +10,7 @@ class Cliente(Base):
     sexo = Column(String, index=True)
     email = Column(String, index=True)
     
+class Produto(Base):
+    __tablename__ ='produtos'
+    id_produto = Column(Integer, primary_key=True,index=True)
     
