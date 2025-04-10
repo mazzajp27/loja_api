@@ -12,7 +12,7 @@ models.Base.metadata.create_all(bind=engine) #Cria todas as tabelas e colunas no
 class Clientes(BaseModel):
     nome: str
     idade: float
-    sexo: str
+    sexo: Optional[str] = None
     email: str
     
 def get_db():# Conexão com a base de dados
